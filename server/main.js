@@ -95,7 +95,7 @@ const startListening = () => {
     
     // start listening
     if (process.env.NODE_ENV !== 'test') {
-        app.listen({ port: 8000 }, () => {
+        app.listen({ port: process.env.PORT || 8000 }, () => {
             console.log('Apollo Server on port 8000/graphql')
         })
     }
