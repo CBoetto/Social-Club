@@ -1,0 +1,146 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+#register, #login, #loginForm, #registerForm, #logout, #header{
+    display: flex;
+    flex-direction: row;
+}
+
+#logout {
+    align-items: center
+}
+
+#logout_welcome {
+    margin-right: 10px
+}
+
+#header {
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightgrey;
+    height: 56px;
+    width: 100%
+}
+
+#loginForm div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#subforum_header {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#router_content {
+    width: 750px;
+}
+
+#threadInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+
+#threadInfo_left{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#threadInfo_right {
+    display: flex;
+    flex-direction: column;
+}
+
+#forum_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+
+}
+
+#forum_header_left {
+    display: flex;
+    flex-direction: row;
+}
+
+#forum_header_right {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    text-align: right;
+}
+
+#forum_header_posts_div {
+    width: 100px;
+    text-align: right;
+    margin-left: 50px
+}
+
+#forum_header_latest_div{
+    width: 200px
+}
+
+#threadInfo_posts_div {
+    width: 100px;
+    text-align: right;
+}
+
+#auth{
+    position: absolute;
+    right: 20px;
+}
+
+#header_title {
+    position: absolute;
+    left: 20px;
+}
+
+#createPost_input {
+    width: 500px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#createPost_form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#createPost_button {
+    width: 100px;
+}
+
+#editPost_button {
+    margin-top: 73px;
+    position: absolute;
+}
+
+#editPost_form {
+    width: 600px;
+    height: 100px
+}
+
+#createThread_form {
+    display: flex;
+    flex-direction: column;
+}
+
+#createThread_title {
+    height: 30px;
+    width: 500px;
+    margin-top: 10px;
+}
+
+#header_block {
+    margin-bottom: 10px;
+}
