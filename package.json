@@ -103,7 +103,7 @@
     "redux-persist": "^5.10.0",
     "redux-thunk": "^2.3.0",
     "semantic-ui-react": "^0.87.3",
-    "sequelize": "^5.8.6",
+    "sequelize": "^5.15.1",
     "uuidv4": "^4.0.0",
     "waait": "^1.0.5",
     "whatwg-fetch": "^3.0.0"
